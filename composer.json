@@ -1,12 +1,15 @@
 {
-    "name": "opensoft/doctrine-postgres-types",
+    "name": "leafnode/doctrine-postgres-types",
     "description": "Provide some common postgres types for doctrine",
     "license": "MIT",
     "authors": [
         {
             "name": "Richard Fullmer",
             "email": "richard.fullmer@opensoftdev.com"
-        }
+        },
+        {
+            "name": "Leszek Krupiński",
+            "email": "leafnode@gmail.com"
     ],
     "require": {
         "php": ">=5.3.0",
@@ -17,7 +20,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Doctrine\\DBAL\\PostgresTypes\\": "src/Doctrine/DBAL/PostgresTypes"
+            "Doctrine\\DBAL\\PostgresTypes\\": "src/Doctrine/DBAL/PostgresTypes",
+            "Doctrine\\DBAL\\PostgresFunctions\\": "src/Doctrine/DBAL/PostgresFunctions",
         }
     },
     "extra": {
