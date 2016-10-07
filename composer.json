@@ -21,7 +21,7 @@
     "autoload": {
         "psr-4": {
             "Doctrine\\DBAL\\PostgresTypes\\": "src/Doctrine/DBAL/PostgresTypes",
-            "Doctrine\\DBAL\\PostgresFunctions\\": "src/Doctrine/DBAL/PostgresFunctions",
+            "Doctrine\\DBAL\\PostgresFunctions\\": "src/Doctrine/DBAL/PostgresFunctions"
         }
     },
     "extra": {
